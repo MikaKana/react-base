@@ -14,9 +14,9 @@ RUN npm install
 COPY . .
 
 # アプリケーションをビルド
-# RUN npm run build
+RUN npm run build
 
 # 3000ポートでアプリケーションを実行
-# EXPOSE 3000
+EXPOSE 8080
 # アプリケーションの起動コマンドを指定
-# CMD ["npm", "start"]
+CMD ["npm", "start"]
