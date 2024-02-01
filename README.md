@@ -18,3 +18,5 @@
 #### コード整形
 - npm run format
 
+#### テスト
+- npm run test
