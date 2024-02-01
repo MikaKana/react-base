@@ -3,3 +3,4 @@ build/
 src/vendor/
 src/stories/
 webpack.config.js
+jest.config.js
